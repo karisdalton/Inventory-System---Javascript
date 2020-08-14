@@ -1,0 +1,33 @@
+#search-bar {
+    width: 100px;
+    transition: ease-in-out, width .35s ease-in-out;
+}
+
+#search-bar:focus {
+    width: 400px;
+
+}
+
+.card {
+    cursor: pointer;
+    transition: ease-in-out, 1s;
+}
+
+.card:hover {
+    background-color: darkgrey !important;
+}
+
+.menu {
+    cursor: pointer;
+    transition: ease-in-out, .25s;
+}
+
+.menu:hover {
+    color: brown;
+}
+
+.customer-btn {
+    position: relative;
+    top: 430px;
+    left: 730px;
+}
